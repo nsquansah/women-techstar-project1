@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Web Page Title</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Background color for the entire page */
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px; /* Margin around the columns */
+    }
+
+    .column {
+      flex: 1;
+      text-align: center;
+      padding: 20px; /* Padding inside each column */
+    }
+
+    .divider {
+      border-right: 2px solid #ccc; /* Straight line dividing the columns */
+      height: 100%;
+    }
+
+    .logo {
+      width: 100px; /* Adjust the width of the logo as needed */
+      height: auto;
+      margin-bottom: 10px; /* Space between logo and text */
+    }
+
+    .text {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="column">
+      <img class="logo" src="logo1.png" alt="Logo 1">
+      <p class="text">84k</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="column">
+      <img class="logo" src="logo2.png" alt="Logo 2">
+      <p class="text">84k</p>
+    </div>
+  </div>
+
+</body>
+</html>
