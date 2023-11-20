@@ -16,10 +16,12 @@ header {
   width: 50px; /* Adjust the width as needed */
   height: auto;
   margin: 40px;
+  margin-top: 20px;
 }
 
 #brand {
   font-size: 1.5em;
+  margin: 10px;
 }
 
 nav {
@@ -36,8 +38,8 @@ nav ul {
 
 nav li {
   margin-right: 100px;
-  margin-bottom: 50px;
-  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 nav a {
@@ -54,20 +56,20 @@ nav a {
     text-decoration: none;
     display: inline-flex;
     font-size: 20px;
-    margin: 30px;
+    margin: 5px;
     margin-left: 0px;
 }
 
 .big{
   font-family: 'Times New Roman', Times, serif;
-  margin: 40px;
+  margin: 10px;
   font-size: 5em;
 }
 
 .small{
   font-size: small;
-  margin: 40px;
-  margin-top: -100px;
+  margin: 20px;
+  margin-top: -80px;
   font-weight: lighter;
 }
 
@@ -80,13 +82,13 @@ nav a {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
-  margin: 20px; /* Margin around the columns */
+  margin: 5px; /* Margin around the columns */
 }
 
 .column {
   flex: 1;
   text-align: center;
-  padding: 20px; /* Padding inside each column */
+  padding: 10px; /* Padding inside each column */
 }
 
 .divider {
@@ -102,15 +104,24 @@ nav a {
 
 .text{
   display: flex;
+  margin: 15px;
+  margin-top: 2px;
 }
 
 .container{
   display: flex;
-  flex: 1;
+  flex:1;
 }
 
 .column{
   margin-top: 20px;
   flex: 1;
-
 }
+
+.gather{
+  margin-top: 2opx;
+}
+
+  .last{
+    height: 10px;
+  }
